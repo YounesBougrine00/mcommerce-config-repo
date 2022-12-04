@@ -4,6 +4,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone : ${EUREKA_SERVER_ADDRESS}
+      defaultZone : http://eureka-srv:9102/eureka/
 
 
